@@ -137,6 +137,18 @@ from `/workspaces/REPO`
 
 - Note that force pushing can overwrite changes on the remote repository, so it should be used with caution
 
+### Git submdule
+
+```bash
+git submodule add <submodule repository url> <path to where you want the submodule to be added>
+```
+To update the contents of the Git submodule: (unconfirmed)
+
+```bash
+cd <submodule directory>
+git pull
+```
+
 ## When you are finished
 
 When you're done with a repository and don't want it taking up space in the IDE, here's what to do.
