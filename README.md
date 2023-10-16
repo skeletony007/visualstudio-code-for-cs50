@@ -149,6 +149,57 @@ cd <submodule directory>
 git pull
 ```
 
+### Undo things 📜
+
+> [How to undo (almost) anything with Git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/) (See https://stackoverflow.com/q/15772134)
+>
+> [Learn how to rewrite Git history](https://youtu.be/ElRzTuYln0M) (unofficial)
+
+#### Interactive rebase
+
+To use Reword, Delete, Reorder\*, Squash and Split:
+
+```bash
+git rebase -i HEAD~n  ## replace `n` with the number of commits to show (from the latest)
+```
+
+**Note** that interactive rebase shows commits in reverse chronological order.
+
+\* To reorder, literally change the line order in the file
+
+#### The latest commit
+
+To add untracked files to the last commit:
+
+```bash
+git add <untracked files>
+git commit --amend --no-edit
+```
+
+To change the commit message, just replace `--no-edit` with `-m <message text>`
+
+#### Accidental severe repository damage
+
+Execute
+
+```bash
+git reflog
+```
+
+to find the desired branch state commit code (e.g. c9ff7ca).
+
+Then execute
+
+```bash
+git reset --hard <commit code>
+```
+
+Use `git push -f`.
+
+#### Why is `push -f` necessary?
+
+`git push -f` can be used to overwrite history at the remote branch.
+
 ## When you are finished
 
 When you're done with a repository and don't want it taking up space in the IDE, here's what to do.
