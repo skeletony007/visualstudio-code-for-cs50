@@ -1,35 +1,32 @@
 ## What is this? 👇
 
-> [cs50.readthedocs.io/code](https://cs50.readthedocs.io/code)
+> <https://cs50.readthedocs.io/code>
 
 *Visual Studio Code for CS50*, web-based IDE
 
 ### Shortcuts 🍔
 
-- Visit
-  [code.cs50.io/.devcontainer.json](https://code.cs50.io/.devcontainer.json)
-  for the latest version of CS50’s `.devcontainer.json`.
-- Visit [code.cs50.io/codespaces](https://code.cs50.io/codespaces) to access
-  your codespaces in CS50’s GitHub organization.
-- Visit [code.cs50.io/commits](https://code.cs50.io/commits) to access all of
-  the commits that have been pushed to your repository in CS50’s GitHub
+- Visit <https://code.cs50.io/.devcontainer.json> for the latest version of
+  CS50’s `.devcontainer.json`.
+- Visit <https://code.cs50.io/codespaces> to access your codespaces in CS50’s
+  GitHub organization.
+- Visit <https://code.cs50.io/commits> to access all of the commits that have
+  been pushed to your repository in CS50’s GitHub organization.
+- Visit <https://code.cs50.io/repo> to access your repository in CS50’s GitHub
   organization.
-- Visit [code.cs50.io/repo](https://code.cs50.io/repo) to access your
-  repository in CS50’s GitHub organization.
-- Visit [code.cs50.io/restart](https://code.cs50.io/restart) to restart your
-  codespace.
-- Visit [code.cs50.io/settings.json](https://code.cs50.io/settings.json) for
-  CS50’s default settings for VS Code.
-- Visit [code.cs50.io/stop](https://code.cs50.io/stop) to stop your codespace.
-- Visit [code.cs50.io/update50.sh](https://code.cs50.io/update50.sh) for the
-  latest version of `update50`.
+- Visit <https://code.cs50.io/restart> to restart your codespace.
+- Visit <https://code.cs50.io/settings.json> for CS50’s default settings for VS
+  Code.
+- Visit <https://code.cs50.io/stop> to stop your codespace.
+- Visit <https://code.cs50.io/update50.sh> for the latest version of
+  `update50`.
 
 ### Deleting a Codespace 🗑️
 
 **Deleting a codespace will delete all files and folders therein.** If you are
 sure you want to delete a codespace:
 
-1. Visit [code.cs50.io/codespaces](https://code.cs50.io/codespaces).
+1. Visit <https://code.cs50.io/codespaces>.
 2. Under Your codespaces, to the right of `main`, click …, select **Delete**,
    and click **OK**.
 
@@ -45,10 +42,10 @@ You can then create a new codespace by logging back into code.cs50.io.
 
 ## 🌵 Git and Visual Studio Code for CS50
 
-> [cs50.readthedocs.io/code/#git](https://cs50.readthedocs.io/code/#git)
+> <https://cs50.readthedocs.io/code/#git>
 
 Because a codespace is already associated with a Git repository in CS50’s
-code50 organisation at https://github.com/code50, which is used for automated
+code50 organisation at <https://github.com/code50>, which is used for automated
 backups, CS50 effectively disables git anytime you’re inside of
 `/workspaces/ID` (which is a codespace’s default directory).
 
@@ -97,4 +94,6 @@ the frontend of Visual Studio Code for CS50:
 
 ### Using Git step-by-step ⚙️
 
-See <https://github.com/skeletony007/guide/blob/main/git-usage.md> for instructions on... using Git.
+See [my guide to using Git] for instructions on... using Git.
+
+[my guide to using Git]: https://github.com/skeletony007/guide/blob/HEAD/git/git-usage.md
